@@ -1,6 +1,4 @@
 import React from "react";
-import InstaLogo from "../public/img/Instagram-Icon.png";
-import FaceLogo from "../public/img/Facebook_logo_(square).png";
 
 const Footer = () => {
     return (
@@ -33,10 +31,10 @@ const Footer = () => {
                 }}
             >
                 <a href="https://www.instagram.com/wedoandcare_cetys/" target="_blank" rel="noopener noreferrer">
-                    <img src={InstaLogo} alt="Instagram" style={{ width: '50px', height: '50px' }} />
+                    <img src="/img/Instagram-Icon.png" alt="Instagram" style={{ width: '50px', height: '50px' }} />
                 </a>
                 <a href="https://www.facebook.com/WEDOandCARE/" target="_blank" rel="noopener noreferrer">
-                    <img src={FaceLogo} alt="Facebook" style={{ width: '50px', height: '50px' }} />
+                    <img src="/img/Facebook_logo_(square).png" alt="Facebook" style={{ width: '50px', height: '50px' }} />
                 </a>
             </div>
         </footer>

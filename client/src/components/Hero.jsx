@@ -1,29 +1,21 @@
-import React, { useState } from "react";
-import heroLogo from "../public/img/logo.png";
-import placeholderImage from "../public/img/placeholder2.png";
-import Modal from "./Modal";
+import React from "react";
 
-const Hero = () => {
-    const [isOpen, setIsOpen] = useState(false);  // Controls modal visibility
-
+const Hero = ({ setIsOpen }) => {
     return (
         <section className="hero" id="hero">
             <div className="hero-text">
-                <img src={heroLogo} alt="Logo" className="hero-logo" />
+                <img src="/img/Logo.png" alt="Logo" className="hero-logo" />
                 <p>
                     Un proyecto que busca cerrar la brecha de género e incentivar la participación de las mujeres en la Ciencia, Tecnología, Ingeniería y Matemáticas.
                 </p>
-                {/* Button to open the modal */}
+                {/* Botón que abre el modal */}
                 <button onClick={() => setIsOpen(true)} className="btn">
                     Registrarse
                 </button>
             </div>
             <div className="hero-image">
-                <img src={placeholderImage} alt="Imagen principal" />
+                <img src="/img/placeholder2.png" alt="Imagen principal" />
             </div>
-
-            {/* Render Modal above the paragraph */}
-            {isOpen && <Modal setIsOpen={setIsOpen} />}
 
             {/* Extra text */}
             <div style={{

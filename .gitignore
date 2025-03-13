@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/  # IntelliJ IDEA
+.idea/*
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python & Django
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+env/
+venv/
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Virtual environment
+backend/env/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Django & Python cache
+*.pytest_cache/
+*.coverage
+htmlcov/
+.mypy_cache/
+__pypackages__/
+
+# React build
+client/.parcel-cache/
+client/.turbo/
+client/.next/
+client/.nuxt/
+client/.output/
+client/.cache/
+client/.vercel/
+client/.netlify/
+client/.firebase/
+client/.yarn/
+client/.pnp/
+client/.pnp.js
+
+# IntelliJ IDEA (for your teammate)
+.idea/
